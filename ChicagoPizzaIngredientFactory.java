@@ -5,7 +5,7 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
     }
 
     public Sauce createSauce() {
-        return new MarinaraSauce();
+        return new PlumTomatoeSauce();
     }
 
     public Cheese createCheese() {

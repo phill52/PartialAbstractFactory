@@ -9,14 +9,11 @@ public class Main {
         String toppings = myObj.nextLine();
 
         if(style.equals("New York")){
-            // The driver for ordering a pizza from any franchise
             NYPizzaStore store = new NYPizzaStore() {};
             String pizza = String.valueOf(store.createPizza(toppings));
             System.out.println(pizza);
-
         }
         else{
-            // The driver for ordering a pizza from any franchise
             ChicagoPizzaStore store = new ChicagoPizzaStore() {};
             String pizza = String.valueOf(store.createPizza(toppings));
             System.out.println(pizza);
