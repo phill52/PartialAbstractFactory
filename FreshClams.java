@@ -1,5 +1,5 @@
 public class FreshClams implements Clams {
-	public String toString() {
-		return "fresh clams ";
-	}
+    public String toString(){
+        return "Fresh Clams";
+    }
 }

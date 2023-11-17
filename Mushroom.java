@@ -1,5 +1,5 @@
 public class Mushroom implements Veggies {
-	public String toString() {
-		return "mushroom spice ";
-	}
+    public String toString(){
+        return "Mushrooms";
+    }
 }
